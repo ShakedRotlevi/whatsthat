@@ -14,6 +14,15 @@
 		ED5681071FC3BE9100FDA00F /* whatsthatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681061FC3BE9100FDA00F /* whatsthatTests.swift */; };
 		ED5681121FC3BE9100FDA00F /* whatsthatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681111FC3BE9100FDA00F /* whatsthatUITests.swift */; };
 		ED5681281FC3E8EE00FDA00F /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681271FC3E8EE00FDA00F /* MenuViewController.swift */; };
+		ED56812A1FC3F7D200FDA00F /* PhotoIdentificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681291FC3F7D200FDA00F /* PhotoIdentificationViewController.swift */; };
+		ED56812C1FC3F9B700FDA00F /* GoogleVisionAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56812B1FC3F9B700FDA00F /* GoogleVisionAPIManager.swift */; };
+		ED56812E1FC3FAAF00FDA00F /* GoogleVisionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56812D1FC3FAAF00FDA00F /* GoogleVisionResult.swift */; };
+		ED5681361FC53DC900FDA00F /* LabelAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681301FC53DC800FDA00F /* LabelAnnotations.swift */; };
+		ED5681371FC53DC900FDA00F /* Responses.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681311FC53DC900FDA00F /* Responses.swift */; };
+		ED5681381FC53DC900FDA00F /* Features.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681321FC53DC900FDA00F /* Features.swift */; };
+		ED5681391FC53DC900FDA00F /* Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681331FC53DC900FDA00F /* Requests.swift */; };
+		ED56813A1FC53DC900FDA00F /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681341FC53DC900FDA00F /* Image.swift */; };
+		ED56813B1FC53DC900FDA00F /* Json4Swift_Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5681351FC53DC900FDA00F /* Json4Swift_Base.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		ED5681111FC3BE9100FDA00F /* whatsthatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = whatsthatUITests.swift; sourceTree = "<group>"; };
 		ED5681131FC3BE9100FDA00F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED5681271FC3E8EE00FDA00F /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		ED5681291FC3F7D200FDA00F /* PhotoIdentificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoIdentificationViewController.swift; sourceTree = "<group>"; };
+		ED56812B1FC3F9B700FDA00F /* GoogleVisionAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVisionAPIManager.swift; sourceTree = "<group>"; };
+		ED56812D1FC3FAAF00FDA00F /* GoogleVisionResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVisionResult.swift; sourceTree = "<group>"; };
+		ED5681301FC53DC800FDA00F /* LabelAnnotations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LabelAnnotations.swift; path = codables/LabelAnnotations.swift; sourceTree = "<group>"; };
+		ED5681311FC53DC900FDA00F /* Responses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Responses.swift; path = codables/Responses.swift; sourceTree = "<group>"; };
+		ED5681321FC53DC900FDA00F /* Features.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Features.swift; path = codables/Features.swift; sourceTree = "<group>"; };
+		ED5681331FC53DC900FDA00F /* Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Requests.swift; path = codables/Requests.swift; sourceTree = "<group>"; };
+		ED5681341FC53DC900FDA00F /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Image.swift; path = codables/Image.swift; sourceTree = "<group>"; };
+		ED5681351FC53DC900FDA00F /* Json4Swift_Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Json4Swift_Base.swift; path = codables/Json4Swift_Base.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +118,15 @@
 				ED5681271FC3E8EE00FDA00F /* MenuViewController.swift */,
 				ED5680F11FC3BE9100FDA00F /* AppDelegate.swift */,
 				ED5680F51FC3BE9100FDA00F /* Main.storyboard */,
+				ED56812B1FC3F9B700FDA00F /* GoogleVisionAPIManager.swift */,
+				ED56812D1FC3FAAF00FDA00F /* GoogleVisionResult.swift */,
+				ED5681321FC53DC900FDA00F /* Features.swift */,
+				ED5681341FC53DC900FDA00F /* Image.swift */,
+				ED5681351FC53DC900FDA00F /* Json4Swift_Base.swift */,
+				ED5681301FC53DC800FDA00F /* LabelAnnotations.swift */,
+				ED5681331FC53DC900FDA00F /* Requests.swift */,
+				ED5681311FC53DC900FDA00F /* Responses.swift */,
+				ED5681291FC3F7D200FDA00F /* PhotoIdentificationViewController.swift */,
 				ED5680F81FC3BE9100FDA00F /* Assets.xcassets */,
 				ED5680FA1FC3BE9100FDA00F /* LaunchScreen.storyboard */,
 				ED5680FD1FC3BE9100FDA00F /* Info.plist */,
@@ -259,8 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5681381FC53DC900FDA00F /* Features.swift in Sources */,
 				ED5680F21FC3BE9100FDA00F /* AppDelegate.swift in Sources */,
+				ED56812C1FC3F9B700FDA00F /* GoogleVisionAPIManager.swift in Sources */,
+				ED5681391FC53DC900FDA00F /* Requests.swift in Sources */,
+				ED56813B1FC53DC900FDA00F /* Json4Swift_Base.swift in Sources */,
+				ED56812E1FC3FAAF00FDA00F /* GoogleVisionResult.swift in Sources */,
+				ED56812A1FC3F7D200FDA00F /* PhotoIdentificationViewController.swift in Sources */,
 				ED5681281FC3E8EE00FDA00F /* MenuViewController.swift in Sources */,
+				ED5681371FC53DC900FDA00F /* Responses.swift in Sources */,
+				ED5681361FC53DC900FDA00F /* LabelAnnotations.swift in Sources */,
+				ED56813A1FC53DC900FDA00F /* Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
